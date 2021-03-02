@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--tag que define um ícone para o site-->
+    <link rel="icon" href="./img/icon.png" />
+    <title>The Sims 3 - Fale Conosco</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-box" id="login-box">
+        <p>Login de Usuário</p>
+        <form id="logar">
+          <input type="text" placeholder="Login" name="login" required />
+          <input type="password" placeholder="Senha" name="senha" required />
+          <input type="submit" value="Logar" />
+        </form>
+        <div class="login-box-details">
+          <a href="#">Esqueci a senha</a>
+          <a href="#">Cadastrar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="separator s-top">
+        <a href="#" id="entrar" class="link">Entrar</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="top">
+        <div class="top-img">
+          <img src="./img/logo.gif" alt="Logo The Sims 3" title="The Sims 3" />
+        </div>
+        <div class="top-banner"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="separator">
+        <div class="hamburguer">
+          <a href="#" id="open-menu"><i class="fas fa-bars"></i></a>
+        </div>
+        <div class="overlayer" id="overlayer"></div>
+        <div class="close" id="close">
+          <a href="#" id="close-menu"><i class="fas fa-times"></i></a>
+        </div>
+        <nav class="menu" id="menu">
+          <a href="./index.html" class="link">Home</a>
+          <a href="./games.html" class="link">Jogos</a>
+          <a href="./credits.html" class="link">Créditos</a>
+          <a href="./findus.html" class="link">Fale Conosco</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="contact">
+        <form id="form-contact">
+          <fieldset>
+            <legend>Entre em contato conosco:</legend>
+            <div>
+              <label for="nome">Nome completo:</label>
+              <input
+                type="text"
+                placeholder="Nome Completo"
+                id="nome"
+                name="nome"
+                autofocus
+                required
+              />
+            </div>
+            <div class="input-group">
+              <div>
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="E-mail"
+                  required
+                />
+              </div>
+              <div>
+                <label for="nascimento">Data de Nascimento</label>
+                <input type="date" id="nascimento" name="nascimento" required />
+              </div>
+            </div>
+            <div>
+              <label for="mensagem"></label>
+              <textarea
+                id="mensagem"
+                cols="30"
+                rows="10"
+                placeholder="Mensagem"
+                name="mensagem"
+                required
+              ></textarea>
+            </div>
+            <div>
+              <input type="submit" value="Enviar Formulário" />
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="separator footer s-center">
+        <p>Todos os direitos reservados</p>
+      </div>
+    </div>
+    <!--font awesome-->
+    <script
+      src="https://kit.fontawesome.com/2b3f85b228.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--javascript-->
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>

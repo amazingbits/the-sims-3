@@ -518,3 +518,15 @@ label {
   outline: none;
   border: none;
 }
+
+@media screen and (max-width: 660px) {
+  .input-group {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .credits {
+    grid-template-columns: 1fr;
+  }
+}
